@@ -1,6 +1,6 @@
 # Unity-Car-Controll
 Unity ilk oyunum <br>
-birimlerin collider(engel/çarpıştırıcı) özelliklerini ve birimlerin yön hız hareketlerini öğrendigim ilk projem.
+Bu projemde kamera hareketleri, birimlerin collider(engel/çarpıştırıcı) özelliklerini ve birimlerin yön hız hareketlerini öğrendigim ilk projem.
 
 
 
