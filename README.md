@@ -1,6 +1,6 @@
 # Unity Car simulator
 Unity ilk oyunum <br>
-Bu projemde transform paleti, birim çarpıştırıcıları (collider) ve Kamera hareketlerini öğrendim.
+Bu projemde transform paleti, birim çarpıştırıcıları (collider) Kamera hareketlerini ve local multiplayer yapmayı öğrendim.
 
 Oyunu oynamak için >>> https://play.unity.com/mg/other/game-t7rs
 <hr>
