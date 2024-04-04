@@ -126,6 +126,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Behaviour
 
+		//System.Boolean UnityEngine.Behaviour::get_enabled()
+		void Register_UnityEngine_Behaviour_get_enabled();
+		Register_UnityEngine_Behaviour_get_enabled();
+
 		//System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
 		void Register_UnityEngine_Behaviour_set_enabled();
 		Register_UnityEngine_Behaviour_set_enabled();
@@ -377,6 +381,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Input::CheckDisabled()
 		void Register_UnityEngine_Input_CheckDisabled();
 		Register_UnityEngine_Input_CheckDisabled();
+
+		//System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyDownInt();
+		Register_UnityEngine_Input_GetKeyDownInt();
 
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();

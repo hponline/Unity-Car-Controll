@@ -3,9 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FollowPlayer
     - PlayerController
+    - vehicleSpeed
     Unity.Play.Publisher.Editor.dll:
     - Unity.Play.Publisher.Editor.AnalyticsHelper
-    - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -53,9 +53,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4878}
+      Script: {instanceID: 4884}
     - Class: 114
-      Script: {instanceID: 7154}
+      Script: {instanceID: 7174}
+    - Class: 114
+      Script: {instanceID: 7430}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -477,7 +479,7 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
-      Hash: a63f40c7fffb475a8cf96597cb4d53e2
+      Hash: dd3cd19d6d1e318ec6396b735d5aa854
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -727,6 +729,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e2270f634dd36210b24132329124dfeb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: vehicleSpeed
   - hash:
       serializedVersion: 2
       Hash: 672716ae97f6ddb615fa5ac3ec9da349

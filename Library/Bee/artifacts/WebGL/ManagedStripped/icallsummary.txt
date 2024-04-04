@@ -20,6 +20,7 @@ UnityEngine.Application::get_version
 UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::get_isDone
 UnityEngine.AsyncOperation::InternalDestroy
+UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::set_enabled
 UnityEngine.Camera::GetAllCamerasCount
 UnityEngine.Camera::GetAllCamerasImpl
@@ -65,6 +66,7 @@ UnityEngine.Gradient::Init
 UnityEngine.Gradient::Cleanup
 UnityEngine.Hash128::Hash128ToStringImpl_Injected
 UnityEngine.Input::CheckDisabled
+UnityEngine.Input::GetKeyDownInt
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown
 UnityEngine.Input::get_mousePosition_Injected

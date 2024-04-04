@@ -18,9 +18,12 @@ extern void FollowPlayer__ctor_mFEF642F6D296A2FBA30A01B637B6BD8DD2446114 (void);
 extern void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (void);
 extern void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (void);
 extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
+extern void vehicleSpeed_Start_m2E9F5484EBB4324375835D01221E941D9A6AA9E7 (void);
+extern void vehicleSpeed_Update_m61A6F494DA378AE036D1D5B7A5899D1418E63F09 (void);
+extern void vehicleSpeed__ctor_mCE370298FEF400D24A972820818B381309244B0F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[8] = 
+static Il2CppMethodPointer s_methodPointers[11] = 
 {
 	FollowPlayer_Start_m138697E0740DB2570074B2DB69AE32AF46A994F9,
 	FollowPlayer_LateUpdate_m69B79F77CFC8072526CE0BA2D71179F66AE15B70,
@@ -28,11 +31,17 @@ static Il2CppMethodPointer s_methodPointers[8] =
 	PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF,
 	PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33,
 	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
+	vehicleSpeed_Start_m2E9F5484EBB4324375835D01221E941D9A6AA9E7,
+	vehicleSpeed_Update_m61A6F494DA378AE036D1D5B7A5899D1418E63F09,
+	vehicleSpeed__ctor_mCE370298FEF400D24A972820818B381309244B0F,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[8] = 
+static const int32_t s_InvokerIndices[11] = 
 {
+	2465,
+	2465,
+	2465,
 	2465,
 	2465,
 	2465,
@@ -46,7 +55,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	8,
+	11,
 	s_methodPointers,
 	0,
 	NULL,
